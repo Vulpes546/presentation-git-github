@@ -1,0 +1,10 @@
+{
+  "name": "wprowadzenie_do_gita",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Xertes0, Vulpes546",
+  "license": "MIT",
+  "dependencies": {
+    "reveal.js": "^4.4.0"
+  }
+}

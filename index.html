@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/plugin/highlight/highlight.css">
+    <link rel="stylesheet" href="node_modules/reveal.js/plugin/highlight/monokai.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Czym jest git?</h1>
+                <div>
+                    <div>
+                        Piotr Stefański
+                    </div>
+                    <div>
+                        Jakub Lis
+                    </div>
+                </div>
+            </section>
+            <section>Slide 2</section>
+        </div>
+    </div>
+    <script type="module">
+        import Reveal from '/node_modules/reveal.js/dist/reveal.esm.js';
+        //import Markdown from '/node_modules/reveal.js/plugin/markdown/markdown.esm.js';
+        import Highlight from '/node_modules/reveal.js/plugin/highlight/highlight.esm.js';
+
+        let deck = new Reveal({
+            plugins: [ Highlight ]
+        });
+        deck.initialize();
+    </script>
+</body>
